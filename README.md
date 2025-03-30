@@ -1,0 +1,3 @@
+This project implements a chatbot using a Transformer model trained on the Cornell Movie Dialogs Corpus. The model processes and tokenizes user input, generating relevant responses by leveraging a multi-head attention mechanism for context understanding. It utilizes Keras with TensorFlow for model development, incorporating multiple Transformer blocks with increased embedding dimensions (128) and attention heads (4). The chatbot is trained on dialogue pairs extracted from the dataset, with preprocessing steps like stopword removal and padding. Providing an interactive experience where users can converse with the model through terminal-based input.
+
+Dataset link : https://www.kaggle.com/datasets/Cornell-University/movie-dialog-corpus
